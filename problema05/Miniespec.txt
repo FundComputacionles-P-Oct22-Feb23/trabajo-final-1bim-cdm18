@@ -1,0 +1,46 @@
+1. Inicio
+2. x, i [0 - n]
+3. y, i [0 - n]
+        
+4. << "Ingrese la cordenada x: "
+5. >> x
+6. << "Ingrese la cordenada y: "
+7. >> y     
+        
+8.  Si x > 0 AND y > 0 entonces
+9.       << "Sus coordenadas estan en el primer cuadrante "       
+10. Fin Si
+
+11. Si x > 0  AND  y < 0 entonces
+12.      << "Sus coordenadas estan en el cuarto cuadrante "       
+13. Fin Si
+
+14. Si x < 0  AND y < 0 entonces
+15. 	 << "Sus coordenadas estan en el tercer cuadrante "       
+16. Fin Si
+
+17. Si x < 0  AND y > 0 entonces
+18.      << "Sus coordenadas estan en el segundo cuadrante "       
+19. Fin Si
+
+20. Si x == 0 AND y == 0 entonces
+21.      << "Sus coordenadas estan centro "      
+22. Fin Si
+
+23. Si x == 0 AND y > 0 entonces
+24.      << "Sus coordenadas estan en el eje +Y "       
+25. Fin Si
+
+26. Si x == 0  AND y < 0 entonces
+27.      << "Sus coordenadas estan en el eje -Y "       
+28. Fin Si 
+
+29. Si x < 0 AND y == 0 entonces
+30.      << "Sus coordenadas estan en el eje -X "       
+31. Fin Si   
+
+32. Si x > 0 AND y == 0 entonces
+33.      << "Sus coordenadas estan en el eje +X "       
+34. Fin Si              
+35. Fin        
+       

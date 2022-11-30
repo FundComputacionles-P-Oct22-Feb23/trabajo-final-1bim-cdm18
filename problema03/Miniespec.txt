@@ -1,0 +1,72 @@
+1. Inicio
+2. tipo, i [0 - n]
+3. nombre, x (500)[{A - Z}, {a - z}, {BS}, {0 - 9}]
+4. horas_t, i [0 - n]
+5. cuota_hora, d [0 - n]
+6. horasextra, i [0 - n]
+7. cuota_horasextra, d [0 - n]
+8. sueldo, d [0 - n]
+
+9.  << "Ingrese su nombre: "
+10. >> nombre
+11. << "Que tipo de empleado es usted (1, 2, 3, 4):"
+12. >> tipo
+13. << "Ingrese el numero de horas trabajadas: "
+14. >> horas_t 
+15. << "Cuanto es su cuota por hora: "
+16. >> cuota_hora
+
+17.  Si horas_t > 40 entonces
+18.         Si tipo == 1 entonces
+19.             cuota_hora <-- cuota_hora * 1.5
+20.             horasextra <-- horas_t - 40
+21.             cuota_horasextra <-- cuota_hora * horasextra
+22.             sueldo <-- horas_t * cuota_hora + cuota_horasextra
+23.             << "El nombre del empleado es:\n" + nombre + "\n"
+24.                     + "Con" + horas_t + "horas trabajadas\n"
+25. 			"Su cuota/hora es de:" + cuota_hora + "\n"
+26.                     + "Su sueldo a pagar es de:" + sueldo + "\n"
+27.         Fin Si
+
+28.         Si tipo == 2 entonces 
+29.             cuota_hora <-- cuota_hora * 2
+30.             horasextra <-- horas_t - 40
+31.             cuota_horasextra <-- cuota_hora * horasextra
+32.             sueldo <-- horas_t * cuota_hora + cuota_horasextra
+33.             << "El nombre del empleado es:\n" + nombre + "\n"
+34.                     + "Con" + horas_t + "horas trabajadas\n"
+35.              	"Su cuota/hora es de:" + cuota_hora + "\n"
+36.                     + "Su sueldo a pagar es de:" + sueldo + "\n"
+37. 	    Fin Si  
+       
+38.         Si tipo == 3 entonces 
+39.                cuota_hora <-- cuota_hora * 2.5
+40.                horasextra <-- horas_t - 40
+41.                cuota_horasextra <-- cuota_hora * horasextra
+42.                sueldo <-- horas_t * cuota_hora + cuota_horasextra
+43.                << "El nombre del empleado es:\n" + nombre + "\n"
+44.                     + "Con" + horas_t + "horas trabajadas\n"
+45. 			"Su cuota/hora es de:" + cuota_hora + "\n"
+46.                     + "Su sueldo a pagar es de:" + sueldo + "\n"
+47.         Fin Si 
+
+48.         Si tipo == 4 entonces  
+49.             cuota_hora <-- cuota_hora * 3
+50.             horasextra <-- horas_t - 40
+51.             cuota_horasextra <-- cuota_hora * horasextra
+52.             sueldo <-- horas_t * cuota_hora + cuota_horasextra
+53.             << "El nombre del empleado es:\n" + nombre + "\n"
+54.                     + "Con" + horas_t + "horas trabajadas\n"
+55.			"Su cuota/hora es de:" + cuota_hora + "\n"
+56.                     + "Su sueldo a pagar es de:" + sueldo + "\n"
+57. 	    Fin Si  
+           
+58.  Si no  
+59.     sueldo <-- horas_t * cuota_hora
+60.     << "El nombre del empleado es:\n" + nombre + "\n"
+61.                        + "Con" + horas_t + "horas trabajadas\n"
+62.			"Su cuota/hora es de:" + cuota_hora + "\n"
+63.                        + "Su sueldo a pagar es de:" + sueldo + "\n"
+64.  Fin Si
+65. Fin
+   

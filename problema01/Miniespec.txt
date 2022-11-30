@@ -1,0 +1,29 @@
+1. Inicio
+2. A, int [0 - n]
+3. B, int [0 - n]
+4. C, int [0 - n]
+
+5.      << "Ingrese el valor del angulo A del triangulo: "
+6.      >> A
+7.      << "Ingrese el valor del angulo B del triangulo: "
+8.      >> B 
+9.      << "Ingrese el valor del angulo C del triangulo: "
+10.     >> C
+
+11.       Si A == 90 OR B == 90 OR C == 90 entonces
+12.           << "El valor de angulos ingresados son: " + A + ", " + B + ", " + C 
+13.           << "Por ende, este triangulo es rectangulo " + "(posee un angulo igual a 90 grados)"
+14.        Fin si
+        
+15.       Si A > 90 AND A < 180  OR  B > 90 AND B < 180  OR  C > 90 AND C < 180 entonces
+16.           << "El valor de angulos ingresados son: " + A + ", " + B + ", " + C 
+17.           << "Por ende, este triangulo es obtusangulo "+ "(posee angulo mayor a 90 grados y menor a 180 grados)"                    
+18.	  Fin si        
+   
+19.       Si A < 90  AND  B < 90  AND  C < 90 entonces
+20.           << "El valor de angulos ingresados son: " + A + ", " + B + ", " + C
+21.           << "Por ende, este triangulo es acutangulo " + "(posee todos sus angulos menores a 90 grados)"          
+22.       Fin si
+23. Fin   
+            
+  

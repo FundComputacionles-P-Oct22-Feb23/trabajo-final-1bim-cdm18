@@ -1,0 +1,11 @@
+1. Inicio    
+
+2. Pregunta el primer numero y guardar en A
+3. Pregunta el segundo numero y guardar en B
+4. Pregunta el tercer numero y guardar en C
+
+5. Si A es mayor a B y C entonces definir mayor como A y mostrar el A
+6. Si B es mayor a A y C entonces definir mayor como B y mostrar el B
+7. Si C es mayor a A y B entonces definir mayor como C y mostrar el B
+8. Si hay numeros iguales, mostrar Error   
+9. Fin   

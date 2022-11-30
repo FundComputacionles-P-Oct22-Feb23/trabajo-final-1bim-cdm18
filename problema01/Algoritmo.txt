@@ -1,0 +1,20 @@
+1. Inicio
+
+2. Se pregunta cual es el valor del angulo A y guardar en A
+3. Se pregunta cual es el valor del angulo B y guardar en B
+4. Se pregunta cual es el valor del angulo C y guardar en C
+
+5. Si A igual a 90 o B igual a 90 o C igual a 90 entonces 
+     se ejecute y se muestre que El valor de angulos ingresados son y lo que valen A, B y C 
+     con un mensaje de que posee un angulo igual a 90 grados y acabar ese condicional                    
+ 
+6. Si A es mayor  90  y   A es menor a 180  o  B es mayor a 90 y  B es menor a 180  o  C es mayor a 90   y  C es menor a 180 entonces
+   muestre el mensaje de que El valor de angulos ingresados son: sumado a lo que valen A, B y C
+   con otro mensaje de que Por ende, este triangulo es obtusangulo 
+   sumado a que posee angulo mayor a 90 grados y menor a 180 grados y acabar ese condcional                    
+  
+7. Si A mayor a 90  y   B menor a 90   y   C menor a 90 entonces 
+   mostrar en pantalla El valor de angulos ingresados son: sumado a lo que valen A, B y C
+   con otro mensaje de que Por ende, este triangulo es acutangulo y posee todos sus angulos menores a 90 grados y terminar condicional
+
+8. Fin   

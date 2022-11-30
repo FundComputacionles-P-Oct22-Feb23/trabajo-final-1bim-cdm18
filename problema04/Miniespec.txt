@@ -1,0 +1,34 @@
+1. Inicio
+2. a, i [0 - n]
+3. b, i [0 - n]        
+4. c, i [0 - n]       
+5. mayor, i [0 - n]       
+
+6.  << "Ingrese el primer numero: "
+7.  >> a
+8.  << "Ingrese el segundo numero: "
+9.  >> b
+10. << "Ingrese el tercer numero: "
+11. >> c
+12. mayor <-- 0
+
+13. Si a == b  OR  b == a  OR  a == c  OR  c == a  OR  c == b  OR  b == c entonces
+14. 	<< "Error, hay numeros iguales"  
+15. Si no 
+16. 	Si a > b AND a > c entonces
+17.     	mayor <-- a
+19.     	<< "El numero mayor es: " + mayor
+20. 	Fin si
+
+21. 	Si b > a AND b > c entonces
+22.     	mayor <-- b
+23.     	<< "El numero mayor es: " + mayor
+24. 	Fin si
+
+25. 	Si c > a AND c > b entonces
+26.     	mayor <-- c
+27.     	<< "El numero mayor es: " + mayor
+28. 	Fin si           
+29. Fin       
+             
+  

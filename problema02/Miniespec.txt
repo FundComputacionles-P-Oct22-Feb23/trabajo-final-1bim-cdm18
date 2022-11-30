@@ -1,0 +1,43 @@
+1. Inicio
+
+2. descuento, d [0 - n]
+3. total, d [0 - n]
+4. precio_u, d [0 - n]
+5. trajes, i [0 - n]
+6. subtotal, d [0 - n]
+        
+7. << "Ingrese la cantidad de trajes que va a adquirir"
+8. >> trajes
+7. << "Ingrese el valor unitario de los trajes"
+8. >> precio_u 
+
+9.    subtotal <-- trajes * precio_u
+                
+10.  Si trajes == 1 entonces 
+11.     descuento <-- subtotal * 0.20
+12.     total <-- subtotal - descuento;          
+13.     << "El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
+14.     subtotal, descuento, total
+15.  Fin Si            
+
+16.  Si trajes == 2 entonces    
+17.     descuento <-- subtotal * 0.25
+18.     total <-- subtotal - descuento          
+19.  << "El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
+                    subtotal, descuento, total
+20.  Fin Si
+
+21.   Si trajes == 3 entonces
+22.     descuento <-- subtotal * 0.40
+23.     total <-- subtotal - descuento          
+            << "El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
+                    subtotal, descuento, total
+24.   Fin Si
+
+25.   Si trajes > 3 entonces
+26.      descuento <--  subtotal * 0.50
+27.      total <-- subtotal - descuento          
+28.      << "El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
+                    subtotal, descuento, total
+29.   Fin Si
+30. Fin

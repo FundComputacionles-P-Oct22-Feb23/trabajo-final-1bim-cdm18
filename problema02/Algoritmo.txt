@@ -1,0 +1,26 @@
+1. Inicio
+2. Se pregunta la cantidad de trajes que va a adquirir y se guarda en trajes
+3. Se pregunta el valor unitario de los trajes y se guarda en precio_u
+4. Definir y asignar a subtotal el resultado de trajes * precio_u
+                
+5. Si la cantidad de trajes es igual a 1 entonces se define y asigna a descuento 
+6. el resultado de subtotal * 0.20 y guardar en descuento
+7.  Asignar a total el resultado de subtotal - descuento y mostrar en pantalla 
+8. el subtotal, el descuento y el total
+
+9. Si la cantidad de trajes es igual a 2 entonces se define y asigna a descuento    
+10. el resultado de subtotal * 0.25 y guardar en descuento
+11. Asignar a total el resultado de subtotal - descuento y mostrar en pantalla       
+12.  el subtotal, el descuento y el total
+
+13. Si la cantidad de trajes es igual a 3 entonces se define y asigna a descuento
+14. el resultado de subtotal * 0.40 y guardar en descuento
+15. Asignar a total el resultado de subtotal - descuento y mostrar en pantalla       
+16. el subtotal, el descuento y el total
+
+17. Si la cantidad de trajes  es mayor a 3 entonces se define y asigna a descuento
+18. el resultado de subtotal * 0.50 y guardar en descuento
+19. Asignar a total el resultado de subtotal - descuento y mostrar en pantalla       
+20. el subtotal, el descuento y el total
+
+21. Fin

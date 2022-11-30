@@ -1,0 +1,17 @@
+1. Inicio
+
+2. Preguntar por la cordenada x y guardar en X
+3. Preguntar por la cordenada y y guardar en Y   
+4. Si X y Y son mayores a 0 entonces mostrar coordenadas en primer cuadrante
+5. Si X es mayor a 0 y Y es menor a 0 mostrar coordenadas en cuarto cuadrante
+6. Si X es menor a 0  y Y es menor a 0 mostrar coordenadas en tercer cuadrante
+7. Si X es menor a 0 y Y es mayor a 0 mostrar coordenadas en segundo cuadrante
+
+8.  Si X y Y son iguales a 0 mostrar coordenadas estan centro
+9.  Si X es igual a 0 y Y es mayor a 0 mostrar coordenadas estan en el eje +Y        
+10. Si X es igual a 0  y Y es menor a 0 mostrar coordenadas estan en el eje -Y       
+11. Si X es menor a 0 y Y es igual a 0 mostrar coordenadas estan en el eje -X       
+12. Si X es mayor a 0 y Y es igual a 0 mostrar coordenadas estan en el eje +X 
+      
+13. Fin   
+       
