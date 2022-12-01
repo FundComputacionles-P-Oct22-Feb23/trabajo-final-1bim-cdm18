@@ -1,0 +1,8 @@
+1. Inicio
+2. Se tiene que asiganar el valor de 1 a una variable que sirva cmo contador.
+3. Se tiene que asignar el valor de " " una variable tipo cadena para que nos acoule todo el mensaje que vamos a presentar en pantalla
+4. Se tiene que asiganar el valor de 0 a una variable que acomule la suma.
+5.Se tiene que crear un ciclo repetitivo en donde solo permita ingresar numeros que sean menor o igual a cien.
+6.Asi mismo asignarle los valores que tienen que ir en la variable (cadena).
+7. Se tiene que presentar en pantalla la variable (cadena) y la variable (suma).
+8. Fin

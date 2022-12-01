@@ -1,0 +1,21 @@
+1. Inicio
+2. pie, d [0-n] <-- 0
+3. pulgada, d [0-n] <-- 0
+4. yarda, d [0-n] <-- 0
+5. cont, i [0-n] <-- 1
+6. salida, x (1000)[{0-9},{A-Z},{a-z}, {BS}] <-- ""
+7. metro, i [0-n] 
+
+8.  Mientras cont <= metro entonces
+9. 	pie <-- cont * 3.28
+10.    	pulgada <-- cont * 39.37
+11.    	yarda <-- cont * 1.094
+12.    	salida <-- salida + cont + "\t" + pie + "\t" + pulgada + "\t" + yarda + "\n"  
+13.    	cont <-- cont + 1 
+14. Fin mientras
+
+15. << "Metros" + "\t" + "Pies" + "\t" + "Pulgadas" + "\t" + "Yardas" 
+16. << salida
+
+17. Fin
+

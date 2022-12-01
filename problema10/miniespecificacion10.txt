@@ -1,0 +1,23 @@
+1. Inicio
+2. bandera, l <-- True
+3. contador, i[0-n] <-- 0
+4. suma, i[0-n] <-- 0
+5. media, i[0-n] <-- 0
+6. n, i[0-n] 
+7. opcion, i[0-n]
+
+8. Mientras bandera == True entonces
+9.	<<"Ingrese un numero: "
+10.	>>n
+11.	suma <-- suma + n
+12	contador <-- contador + 1
+13.	<<"Si desea terminar el proceso digita '000': "
+14.	>>opcion
+15.	Si opcion == 000 entonces
+16.		bandera = False
+17.	FinSi
+18.	media <-- suma / contador
+19. Fin Mientras
+20. <<"La suma es: " + suma
+21. <<"La media es: " + media
+22. Fin

@@ -1,0 +1,20 @@
+1. Inicio
+2. contador, i[0-n] <-- 12
+3. auxiliar, i[0-n] <-- 11
+4. salida, x(100)[{0-n}, {"+"}, {"-"}] <-- ""
+5. cont2, i[0-n] <-- 1
+
+6. Mientras contador <= 48 entonces
+7.	salida <-- salida + contador + "-" + auxiliar
+
+8.	Si cont2 < 4 entonces
+9. 	    salida <-- salida + "+"
+10.         cont2 <-- cont2 + 1
+11. 	Fin Si
+
+12.	contador <-- contador + 12
+8.	auxiliar <-- auxiliar + 11
+9. FinMientras
+
+10. << "S1 = " + salida
+11. Fin

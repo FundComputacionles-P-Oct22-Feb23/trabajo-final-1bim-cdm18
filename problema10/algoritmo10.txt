@@ -1,0 +1,12 @@
+1. Inicio
+2. Se crea una variable tipo decimal para que almacene los numeros ingresados.
+3. Se asigana el valor de True a una variables de tipo booleana.
+4. Se asigan el valor de 0 a una variable que sirva como contador.
+5. Se asigna el valor de o a una variable de tipo decimal.Para que acomule la suma de los numeros ingresados.
+6. Se asigna el valor de o a una variable tipo decimal.Para que guarde el resultado de la media.
+7. Se debe utilizar un ciclo repetitivo en donde dentro se debe pedir los datos que se nescecita en este caso es un numero.
+8. Dentro del ciclo se debe realizar las operaciones correspondientes al problema.
+9. Dentro del ciclo se debe tambien poner una condicion en donde diga si el Usuario quiere seguir ingresando datos.
+10. Se debe mostrar en pantalla la suma y la media
+11. Fin
+ 

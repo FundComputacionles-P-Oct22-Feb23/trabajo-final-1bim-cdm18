@@ -1,0 +1,16 @@
+1. Inicio
+2. contador, i[0-n] <-- 1
+3. cadena, x(1000)[{A-A}, {a-z}, {BS}] <-- "1"
+4. suma, i[0-n] <-- 0
+
+5. Mientras contador <= 100 entonces
+6.	Si contador == 1 entonces
+7.		<<cadena
+8.	FinSi
+9.	cadena <-- 1 + "/" + contador
+10.	suma <-- suma + contador
+11. 	contador <-- contador + 1
+12. 	<<cadena
+13.	<<"La suma es: " + suma
+14. FinMientras
+15. Fin 

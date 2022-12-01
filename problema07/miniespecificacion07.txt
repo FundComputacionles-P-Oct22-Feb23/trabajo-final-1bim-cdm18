@@ -1,0 +1,22 @@
+1. Inicio
+2. numero, i[0-n]
+3. suma_par, i[0-n] <-- 2
+4, suma_total, i[0-n] <-- 0
+
+5. <<"Ingrese un numero: "
+6. >>numero 
+
+7. Si numero >= 2 entonces
+8.	Si numero MOOD2=0 entonces
+9.		<<"El numero ingresado es Par"
+10.		Mientras suma_par <= numero entonces
+11.			suma_total <-- suma_total + suma_par
+12.			<<suma_par
+13.			suma_par <-- suma_par + 2
+14.		FinMientras
+15.		<<"La suma total es: " + suma_total
+16.	FinSi
+17. De lo contrario
+18. 	<<"Error, ingrese un valor mas alto"
+19. FinSi
+20. Fin
